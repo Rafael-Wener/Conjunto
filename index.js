@@ -10,10 +10,17 @@ app.use(bodyParser.urlencoded({extended: true}))
 //Colocar exatamente o que está no app.get no URL chrome para abrir
 // lembrar de ativar o Auto Save
 
-app.get("/josias",(req,res) => {
-    nome = "josias"
+app.get("/rafael",(req,res) => {
+    nome = "rafael"
     console.log(nome)
-    res.render("josias",{nome})
+    res.render("rafael",{nome})
+})
+
+
+app.get("/joao",(req,res) => {
+    nome = "joao"
+    console.log(nome)
+    res.render("joao",{nome})
 })
 
 
