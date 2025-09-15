@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+img{
+    display: block;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(29, 185, 84);
+    font-size: 60px;
+    position: absolute;
+    left: 180px;
+    top: 10px
+}
